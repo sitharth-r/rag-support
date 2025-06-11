@@ -1,1 +1,41 @@
 Hello World!
+
+# Hello World
+
+This is a basic **Hello World** project — typically used as the first step in learning any new programming language, framework, or version control system like Git and GitHub.
+
+This repository was forked and cloned as part of my Git learning journey.
+
+---
+
+## What This Project Contains
+
+- A simple "Hello, World!" README
+- Basic Git operations:
+  - Forking
+  - Cloning
+  - Committing
+  - Pushing
+  - Pull requests (PR)
+- Initial GitHub repository setup
+
+---
+
+## What I Learned
+
+- How to **fork** a repository from GitHub
+- How to **clone** a repo using `git clone`
+- How to make local changes and push them back to GitHub
+- Importance of version control using Git
+- Understanding README structure and markdown syntax
+
+---
+
+## BONUS :  How to Run A Program
+
+If it's a Java program:
+
+```bash
+javac HelloWorld.java
+java HelloWorld
+
