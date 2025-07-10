@@ -1,1 +1,17 @@
-Hello World!
+## Usage  
+```bash
+npm start        # démarre le serveur en local  
+npm test         # lance les tests unitaires  
+npm run build    # génère la version de production  
+
+## Contributing
+
+Merci de contribuer à ce projet !  
+Pour proposer des améliorations :
+
+1. Forkez ce dépôt  
+2. Créez une branche `feature/votre-idee`  
+3. Faites vos modifications et `git commit -m "feat: description de votre changement"`  
+4. Poussez sur votre fork (`git push`)  
+5. Ouvrez une Pull Request vers `main` de ce dépôt  
+
