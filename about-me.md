@@ -15,3 +15,6 @@
 - [ ] Merger les changements
 ---
 *Fichier créé dans le cadre du TP Git/GitHub*
+## Mise à jour suite aux retours
+- Correction orthographique
+- Amélioration du format
