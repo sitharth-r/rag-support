@@ -1,0 +1,31 @@
+# Name of the workflow
+name: Deploy to GitHub Pages
+
+# This workflow is triggered on every push to the 'main' branch
+on:
+  pull_request:
+    branches: ["master"]
+
+# A workflow can have one or more jobs. This one has a 'deploy' job.
+jobs:
+  deploy:
+    # The job runs on the latest version of Ubuntu
+    runs-on: ubuntu-latest
+
+    # The steps that make up the 'deploy' job
+    steps:
+      # Step 1: Check out your code from the repository
+      # This action is required for every workflow
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      # Step 2: Deploy to GitHub Pages
+      # This action takes your files and publishes them
+      # to the 'gh-pages' branch, which GitHub Pages serves.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # This token is automatically provided by GitHub
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # The branch to deploy to (GitHub Pages serves content from here)
+          publish_dir: ./
