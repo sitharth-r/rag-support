@@ -1,1 +1,45 @@
-Hello World!
+# Acme GitHub Demo 111
+
+This repository is used to demonstrate the integration between **GitHub** and **ClickUp** for Acme Co., a 400-person IT-based professional services firm that provides outsourced engineering to leading global brands.
+
+---
+
+🌍 Background
+Acme Co. is evaluating ClickUp as a unified work management platform. Their engineering teams currently use **Jira** for project tracking and **GitHub** for code management.  
+A key requirement for selecting ClickUp is the ability to seamlessly integrate with GitHub to reduce tool switching, improve visibility, and save time across the organization.
+
+---
+
+🎯 Discovery Insights
+During our discovery call with Acme stakeholders, we learned:
+- Engineers are frustrated by switching between Jira and GitHub.  
+- Managers lack real-time visibility into code progress from Jira alone.  
+- Operations leaders are concerned about the cost and inefficiency of maintaining multiple tools.  
+- Executives want one platform where they can measure productivity and delivery without stitching data together.  
+
+Principle-based approach: “Time is more valuable than money. Money can be earned back, but time cannot.”   
+This principle is guiding Acme’s decision — to invest in a platform that saves time for every role.
+
+---
+
+## ⚙️ Integration Demo
+This repo demonstrates:
+- **Commits linked to ClickUp tasks** via task IDs (e.g., `CU-101`).  
+- **Branches and pull requests** automatically associated with ClickUp tasks.  
+- **Real-time updates** in ClickUp, giving managers visibility without leaving their workspace.  
+
+---
+
+## ✅ Benefits for Acme Co.
+- **Transparency** → Product managers see development progress without going into GitHub.  
+- **Efficiency** → Engineers keep working in GitHub, managers track tasks in ClickUp.  
+- **Consolidation** → One platform replaces Jira + reporting spreadsheets.  
+
+---
+
+## 📽️ Next Steps
+This repository supports the demo video where we will show:
+1. A commit with a ClickUp task ID automatically linked to the task.  
+2. A branch and pull request tied to a task.  
+3. How ClickUp provides a single source of truth for engineering work.  
+
