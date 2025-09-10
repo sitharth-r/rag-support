@@ -16,3 +16,6 @@
 
 
 
+## Mise à jour suite aux retours
+- Correction orthographique
+- Amélioration du format
