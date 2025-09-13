@@ -1,0 +1,11 @@
+Lo que he aprendido sobre Git:
+
+Git es un sistema de control de versiones distribuido que me ha permitido entender conceptos fundamentales como:
+
+- Repositorios: Espacios donde se almacena el código y su historial completo
+- Commits: Instantáneas del proyecto que documentan los cambios realizados
+- Ramas (branches): Líneas de desarrollo paralelas que permiten trabajar en nuevas funcionalidades sin afectar el código principal
+- Push y Pull: Comandos para sincronizar cambios entre repositorios locales y remotos
+- Pull Requests: Mecanismo para revisar y fusionar cambios de manera controlada
+
+Estos conceptos son esenciales para el desarrollo colaborativo y el mantenimiento ordenado del código.
