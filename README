@@ -1,1 +1,2 @@
-Hello World!
+# edit by hand in your editor is safest; example append:
+printf "\n## Greeting\nHello from @your-username\n" >> README.md
