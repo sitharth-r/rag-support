@@ -1,0 +1,2 @@
+abc
+"my new line" 
