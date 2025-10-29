@@ -1,1 +1,117 @@
-Hello World!
+print("Hello, World!")
+
+console.log("Hello, World!");
+
+public class HelloWorld {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
+}
+
+#include <stdio.h>
+int main() {
+printf("Hello, World!");
+return 0;
+}
+
+#include <iostream>
+int main() {
+std::cout << "Hello, World!";
+return 0;
+}
+
+using System;
+namespace HelloWorld
+{
+class Hello
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Hello, World!");
+}
+}
+}
+
+puts "Hello, World!"
+
+<?php
+echo "Hello, World!";
+?>
+
+package main
+import "fmt"
+func main() {
+fmt.Println("Hello, World!")
+}
+
+fn main() {
+println!("Hello, World!");
+}
+
+print("Hello, World!")
+
+fun main() {
+println("Hello, World!")
+}
+
+echo "Hello, World!"
+
+print "Hello, World!\n";
+
+print("Hello, World!")
+
+print("Hello, World!")
+
+disp('Hello, World!')
+
+PRINT 'Hello, World!'
+
+SELECT 'Hello, World!';
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Hello World</title>
+</head>
+<body>
+<p>Hello, World!</p>
+</body>
+</html>
+
+(princ "Hello, World!")
+
+(display "Hello, World!")
+(newline)
+
+main :: IO ()
+main = putStrLn "Hello, World!"
+
+; section .data
+;     msg db 'Hello, World!', 0xa
+;     len equ $ - msg
+; section .text
+;     global _start
+; _start:
+;     mov eax, 4
+;     mov ebx, 1
+;     mov ecx, msg
+;     mov edx, len
+;     int 0x80
+;     mov eax, 1
+;     mov ebx, 0
+;     int 0x80
+
+void main() {
+print('Hello, World!');
+}
+
+object HelloWorld {
+def main(args: Array[String]): Unit = {
+println("Hello, World!")
+}
+}
+
+IO.puts "Hello, World!"
+
+Write-Host "Hello, World!"
