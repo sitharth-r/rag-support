@@ -1,0 +1,21 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..334a72d[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m
+[32m+[m[32m## Contribution[m
+[32m+[m[32mCe repository a été modifié par nassreddine le Thu Nov 20 23:38:25 CET 2025[m
+[32m+[m[32mDans le cadre d'un TP Git/GitHub[m
+[1mdiff --git a/about-me.md b/about-me.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1d48c50[m
+[1m--- /dev/null[m
+[1m+++ b/about-me.md[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m# À propos de moi[m[41m [m
+[32m+[m[32m## Informations personnelles - **Nom** : nassreddine - **Rôle** : Étudiant/Développeur - **Date** :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    %2025-       %11-                 %20[m[41m [m
+[32m+[m[32m## Compétences - Git et GitHub - Développement web - Collaboration en équipe[m[41m [m
+[32m+[m[32m## Objectifs de ce TP - [x] Cloner un repository - [x] Créer une branche - [x] Faire des modifications - [ ] Créer une Pull Request - [ ] Merger les changements ---[m[41m [m
+[32m+[m[32m*Fichier créé dans le cadre du TP Git/GitHub*[m[41m [m
