@@ -1,2 +1,1 @@
-# Hello-World
-This is my first contribution to an open source project!
+This is my first contribution to open source!
