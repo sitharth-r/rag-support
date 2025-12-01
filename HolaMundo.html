@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>¡Hola Mundo! — Hello-World</title>
+    <style>
+        :root{
+            --bg1:#0f172a;
+            --bg2:#0b3d91;
+            --card:#0f172aAA;
+            --accent1:#ff7a59;
+            --accent2:#ffd166;
+            --muted:#cbd5e1;
+        }
+        html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+        body{
+            background: radial-gradient(1000px 600px at 10% 10%, rgba(255,122,89,0.08), transparent),
+                        radial-gradient(800px 500px at 90% 90%, rgba(255,209,102,0.06), transparent),
+                        linear-gradient(180deg,var(--bg1),var(--bg2));
+            color:var(--muted);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:32px;
+        }
+        .card{
+            width:100%;
+            max-width:880px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+            border:1px solid rgba(255,255,255,0.04);
+            border-radius:12px;
+            padding:28px;
+            box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+            backdrop-filter: blur(6px);
+        }
+        header{
+            display:flex;
+            align-items:center;
+            gap:18px;
+            margin-bottom:18px;
+        }
+        .logo{
+            width:64px;
+            height:64px;
+            border-radius:10px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background: linear-gradient(135deg,var(--accent1),var(--accent2));
+            color:#06203a;
+            font-weight:800;
+            font-size:20px;
+            box-shadow:0 6px 18px rgba(255,122,89,0.12);
+        }
+        h1{
+            margin:0;
+            font-size:28px;
+            line-height:1.05;
+            color:linear-gradient;
+            background: linear-gradient(90deg,var(--accent1),var(--accent2));
+            -webkit-background-clip:text;
+            background-clip:text;
+            color:transparent;
+        }
+        p.lead{margin:6px 0 0;color:var(--muted);font-size:14px;}
+        .labels{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+            gap:12px;
+            margin-top:20px;
+        }
+        .label{
+            background:rgba(255,255,255,0.02);
+            border:1px solid rgba(255,255,255,0.03);
+            padding:12px;
+            border-radius:8px;
+        }
+        .label .key{display:block;font-size:12px;color:#9fb0c8;text-transform:uppercase;letter-spacing:0.06em}
+        .label .value{font-weight:700;margin-top:6px;color:#e6f0ff;font-size:16px}
+        footer{margin-top:18px;color:#9fb0c8;font-size:13px;display:flex;justify-content:space-between;align-items:center;}
+        .badge{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:12px}
+        @media (max-width:520px){ .card{padding:18px} h1{font-size:22px} }
+    </style>
+</head>
+<body>
+    <main class="card" role="main" aria-labelledby="titulo">
+        <header>
+            <div class="logo" aria-hidden="true">HW</div>
+            <div>
+                <h1 id="titulo">¡Hola Mundo!</h1>
+                <p class="lead">Página índice del proyecto Hello-World</p>
+            </div>
+        </header>
+
+        <section class="labels" aria-label="Información del proyecto">
+            <div class="label">
+                <span class="key">Proyecto</span>
+                <span class="value">Hello-World</span>
+            </div>
+            <div class="label">
+                <span class="key">Autor</span>
+                <span class="value">Mateo Cobo</span>
+            </div>
+            <div class="label">
+                <span class="key">Versión</span>
+                <span class="value">1.0.0</span>
+            </div>
+            <div class="label">
+                <span class="key">Descripción</span>
+                <span class="value">Página de ejemplo que muestra "Hola Mundo" y metadatos del proyecto.</span>
+            </div>
+        </section>
+
+        <footer>
+            <span class="badge">Estado: Activo</span>
+            <span id="fecha">Fecha: --/--/----</span>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-ES');
+    </script>
+    
+</body>
+</html>
